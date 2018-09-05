@@ -44,8 +44,6 @@ public class Game {
 
     }
 
-
-
     public static void main(String[] args) {
 
         ox = new OX();
@@ -101,7 +99,6 @@ public class Game {
     }
 
 
-
     private static void printScore() {
 
         System.out.println("X Win: " + countX);
@@ -109,6 +106,14 @@ public class Game {
         System.out.println("O Win: " + countO);
 
         System.out.println("Draw: " + countDraw);
+
+    }
+
+
+
+    private static void printTable() {
+
+        System.out.print(ox.getTableString());
 
     }
 
@@ -132,12 +137,5 @@ public class Game {
 
 
 
-
-
-    private static void printTable() {
-
-        System.out.print(ox.getTableString());
-
-    }
 
 }

@@ -3,11 +3,7 @@ import org.junit.jupiter.api.Test;
 
 
 import static org.junit.jupiter.api.Assertions.*;
-
-
-
 class OXTest {
-
     @Test
 
     public void shouldCreateOXObjectCorrectly(){
@@ -27,8 +23,6 @@ class OXTest {
         assertEquals(0, ox.getCounrX());
 
         assertEquals(0, ox.getCountDraw());
-
-
 
     }
 
@@ -71,8 +65,6 @@ class OXTest {
 
 
         assertEquals(false, ox.put(0,3));
-
-
 
     }
 
@@ -347,7 +339,4 @@ class OXTest {
         assertTrue(ox.isDraw());
 
     }
-
-
-
 }
