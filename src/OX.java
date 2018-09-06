@@ -148,7 +148,7 @@ public class OX {
 
         if(isDraw()){
 
-            countX++;
+            countDraw++;
 
         }
 
